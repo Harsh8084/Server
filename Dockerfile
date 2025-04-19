@@ -22,10 +22,7 @@ COPY . .
 
 # Install the dependencies
 RUN npm install
-RUN service docker start
-RUN docker pull gcc:latest
-RUN docker pull python:3.10-slim
-RUN docker pull node:16.17.0-bullseye-slim
+
 
 
 # Expose the necessary ports
