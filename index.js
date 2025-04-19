@@ -40,7 +40,7 @@ app.use(express.urlencoded({ extended: true }));
 // Security
 const allowedOrigins = [
     "http://localhost:3000",
-    "https://client-ecru-two-99.vercel.app/"
+    "https://client-ecru-two-99.vercel.app"
   ];
   
   app.use(cors({
